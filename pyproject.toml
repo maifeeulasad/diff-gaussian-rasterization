@@ -1,0 +1,20 @@
+[project]
+name = "diff-gaussian-rasterization"
+version = "0.0.0"
+authors = [
+  { name="Kerbl, Bernhard and Kopanas, Georgios and Leimkü̈hler, Thomas and Drettakis, George" },
+  { name="Inria and the Max Planck Institut for Informatik (MPII)" },
+]
+description = "Differential Gaussian Rasterization used for 3D Gaussian Splatting in real-time rendering of radiance fields."
+readme = "README.md"
+license = "LICENSE.md
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: Linux Based",
+    "License :: Other/Proprietary License",
+]
+
+[project.urls]
+Homepage = "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/"
+Issues = "https://github.com/graphdeco-inria/diff-gaussian-rasterization/issues"
