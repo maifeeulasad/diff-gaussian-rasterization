@@ -15,7 +15,7 @@ classifiers = [
 ]
 
 [build-system]
-requires = ["torch", "setuptools", "wheel"]
+requires = ["torch", "setuptools", "wheel", "ninja"]
 build-backend = "setuptools.build_meta"
 
 [project.urls]
