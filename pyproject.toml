@@ -15,6 +15,10 @@ classifiers = [
     "License :: Other/Proprietary License",
 ]
 
+[build-system]
+requires = ["torch", "setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project.urls]
 Homepage = "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/"
 Issues = "https://github.com/graphdeco-inria/diff-gaussian-rasterization/issues"
