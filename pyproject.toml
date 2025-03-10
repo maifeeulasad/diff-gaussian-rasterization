@@ -14,8 +14,11 @@ classifiers = [
     "License :: Other/Proprietary License",
 ]
 
+[tool.uv.pip]
+extra-index-url = ["https://download.pytorch.org/whl/cu121"]
+
 [build-system]
-requires = ["torch", "setuptools", "wheel", "ninja"]
+requires = ["torch==2.5.1+cu121", "setuptools", "wheel", "ninja", "numpy"]
 build-backend = "setuptools.build_meta"
 
 [project.urls]
