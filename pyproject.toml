@@ -7,7 +7,6 @@ authors = [
 ]
 description = "Differential Gaussian Rasterization used for 3D Gaussian Splatting in real-time rendering of radiance fields."
 readme = "README.md"
-license = "LICENSE.md"
 requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
